@@ -4,7 +4,7 @@ package org.owasp.webgoat.lessons;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
-import java.util.Base64
+import java.util.Base64;
 import java.security.MessageDigest;
 import javax.servlet.http.HttpServletResponse;
 import org.apache.ecs.Element;
