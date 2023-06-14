@@ -79,7 +79,7 @@ public class Encoding extends LessonAdapter
 
     private static java.util.Base64 decoder = new java.util.Base64();
 
-    private static sun.misc.BASE64Encoder encoder = new sun.misc.BASE64Encoder();
+    private static java.util.Base64  encoder = new java.util.Base64 ();
 
     // encryption constant
 
