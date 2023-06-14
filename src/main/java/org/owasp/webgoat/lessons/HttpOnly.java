@@ -183,7 +183,8 @@ public class HttpOnly extends LessonAdapter
         String value = null;
         byte[] buffer = null;
         MessageDigest md = null;
-        BASE64Encoder encoder = new BASE64Encoder();
+        //BASE64Encoder encoder = new BASE64Encoder();
+        base64Encode encoder = new base64Encode();
 
         try
         {
